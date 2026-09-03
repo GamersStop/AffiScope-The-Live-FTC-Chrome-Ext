@@ -36,6 +36,14 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- Customer Support & Help Center -->
+  <url>
+    <loc>https://affiscope.website/support.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- LLM / AI Discovery File -->
   <url>
     <loc>https://affiscope.website/llms.txt</loc>

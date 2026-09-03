@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZX9LB1X7BP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZX9LB1X7BP');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Support &amp; Help Center — AffiScope | Dreainno</title>
+  <meta name="description" content="Official Customer Support & Help Center for AffiScope Chrome Extension. Get help with license key activation, FTC compliance audits, link repairs, or refund requests.">
+  <meta name="author" content="Dreainno">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#07090E">
+  <link rel="canonical" href="https://affiscope.website/support.html">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://affiscope.website/support.html">
+  <meta property="og:title" content="Customer Support & Help Center — AffiScope">
+  <meta property="og:description" content="Official Customer Support & Help Center for AffiScope Chrome Extension. Get prompt assistance with license activation, audits, and technical queries.">
+  <meta property="og:image" content="https://affiscope.website/assets/affiscope-banner_main.png">
+
+  <!-- Twitter Card Data -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Customer Support — AffiScope">
+  <meta name="twitter:description" content="Official Help Center for AffiScope Chrome Extension by Dreainno.">
+  <meta name="twitter:image" content="https://affiscope.website/assets/affiscope-banner_main.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="apple-touch-icon" href="assets/icon.png">
+
+  <!-- Google Fonts: Plus Jakarta Sans, Outfit & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Structured Data (JSON-LD): ContactPage & BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ContactPage",
+        "@id": "https://affiscope.website/support.html#contact",
+        "url": "https://affiscope.website/support.html",
+        "name": "AffiScope Customer Support & Help Center",
+        "description": "Official support portal for the AffiScope Chrome Extension by Dreainno.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Dreainno",
+          "url": "https://dreainno.online/"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Customer Support",
+          "email": "support@affiscope.website",
+          "availableLanguage": ["English"]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://affiscope.website/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Customer Support",
+            "item": "https://affiscope.website/support.html"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            display: ['"Outfit"', '"Plus Jakarta Sans"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace']
+          },
+          colors: {
+            brand: {
+              obsidian: '#07090E',
+              dark: '#0B0F19',
+              surface: '#111827',
+              surfaceAlt: '#161F32',
+              emerald: '#10B981',
+              mint: '#34D399',
+              cyan: '#06B6D4',
+              sky: '#38BDF8',
+              amber: '#F59E0B',
+              crimson: '#EF4444',
+              slateText: '#94A3B8',
+              muted: '#64748B'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    .glass-nav {
+      background: rgba(11, 15, 25, 0.85);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glass-card {
+      background: rgba(17, 24, 39, 0.7);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .badge-emerald {
+      background: rgba(16, 185, 129, 0.15);
+      color: #34D399;
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+    .badge-cyan {
+      background: rgba(6, 182, 212, 0.15);
+      color: #38BDF8;
+      border: 1px solid rgba(6, 182, 212, 0.3);
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-brand-obsidian text-slate-100 antialiased relative font-sans selection:bg-brand-emerald selection:text-brand-obsidian">
+
+  <!-- Background Ambience Glow -->
+  <div class="fixed top-0 left-1/2 -translate-x-1/2 w-[800px] h-[450px] bg-gradient-to-b from-brand-emerald/15 to-transparent rounded-full blur-3xl pointer-events-none -z-10"></div>
+
+  <!-- NAVIGATION BAR -->
+  <header class="sticky top-0 z-50 glass-nav">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 sm:h-20">
+        
+        <!-- Logo -->
+        <a href="index.html" class="flex items-center space-x-3 group">
+          <div class="relative w-9 h-9 sm:w-10 sm:h-10 rounded-xl overflow-hidden p-0.5 bg-gradient-to-tr from-brand-emerald via-brand-mint to-brand-cyan shadow-lg shadow-brand-emerald/25 flex-shrink-0 group-hover:scale-105 transition-transform">
+            <img src="assets/icon.png" alt="AffiScope Logo" class="w-full h-full object-cover rounded-[10px]" onerror="this.src='assets/icon128 (1).png'">
+          </div>
+          <div class="flex flex-col">
+            <div class="flex items-center space-x-1.5">
+              <span class="font-black text-lg sm:text-xl tracking-tight text-white group-hover:text-brand-mint transition-colors">AffiScope</span>
+              <span class="px-1.5 py-0.5 text-[10px] font-mono font-bold uppercase tracking-wider rounded bg-brand-emerald/15 text-brand-mint border border-brand-emerald/40 shadow-sm">Support</span>
+            </div>
+            <span class="text-[11px] text-slate-400 font-medium hidden sm:block">Customer Support &amp; Help Center</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden md:flex items-center space-x-2 text-xs font-semibold text-slate-300">
+          <a href="index.html" class="px-3 py-2 rounded-lg hover:text-white hover:bg-white/5 transition-colors">Home</a>
+          <a href="index.html#features" class="px-3 py-2 rounded-lg hover:text-white hover:bg-white/5 transition-colors">12 Engines</a>
+          <a href="index.html#interactive-demo" class="px-3 py-2 rounded-lg hover:text-white hover:bg-white/5 transition-colors">Live Demo</a>
+          <a href="index.html#pricing" class="px-3 py-2 rounded-lg hover:text-white hover:bg-white/5 transition-colors">Pricing</a>
+          <a href="support.html" class="px-3 py-2 rounded-lg text-brand-mint bg-brand-emerald/10 border border-brand-emerald/30 font-bold">Help Center</a>
+        </nav>
+
+        <!-- CTA Button -->
+        <div class="flex items-center space-x-3">
+          <a href="https://dreainno.lemonsqueezy.com/" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center px-3.5 py-2 text-xs font-bold text-slate-300 hover:text-brand-mint transition-colors">
+            <i data-lucide="key" class="w-3.5 h-3.5 mr-1.5 text-brand-mint"></i>
+            Manage License
+          </a>
+          <a href="index.html#pricing" class="inline-flex items-center justify-center px-4 py-2 text-xs font-extrabold text-brand-obsidian bg-gradient-to-r from-brand-mint via-brand-emerald to-brand-cyan rounded-xl shadow-lg shadow-brand-emerald/25 hover:shadow-brand-emerald/45 transition-all">
+            <i data-lucide="chrome" class="w-3.5 h-3.5 mr-1.5 stroke-[2.5]"></i>
+            Add to Chrome (Free)
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN SUPPORT CONTENT -->
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+    
+    <!-- Hero Header -->
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full badge-emerald mb-4 text-xs font-semibold">
+        <i data-lucide="life-buoy" class="w-3.5 h-3.5"></i>
+        <span>Official Support &amp; Knowledge Base</span>
+      </div>
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight">
+        How Can We Help You?
+      </h1>
+      <p class="mt-4 text-slate-400 text-sm sm:text-base leading-relaxed">
+        Need assistance with your license key, FTC compliance configuration, or Chrome extension settings? Our team is here to assist you promptly.
+      </p>
+    </div>
+
+    <!-- 3 Quick Contact Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+      
+      <!-- Card 1: Direct Email -->
+      <div class="glass-card rounded-2xl p-6 flex flex-col justify-between border-t-2 border-t-brand-emerald">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-brand-emerald/15 border border-brand-emerald/30 flex items-center justify-center text-brand-mint mb-4">
+            <i data-lucide="mail" class="w-5 h-5"></i>
+          </div>
+          <h2 class="text-lg font-bold text-white mb-1">Email Support</h2>
+          <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+            Direct priority email support for general questions, bug reports, and feedback.
+          </p>
+          <div class="p-2.5 rounded-lg bg-black/40 border border-white/10 font-mono text-xs text-brand-mint select-all">
+            support@affiscope.website
+          </div>
+        </div>
+        <div class="mt-4 pt-3 border-t border-white/5">
+          <a href="mailto:support@affiscope.website?subject=AffiScope%20Support%20Request" class="w-full py-2 px-3 rounded-lg bg-brand-surface hover:bg-brand-surfaceAlt border border-brand-emerald/30 text-xs font-bold text-slate-200 hover:text-white flex items-center justify-center transition-colors">
+            <i data-lucide="send" class="w-3.5 h-3.5 mr-1.5 text-brand-mint"></i>
+            Send Direct Email
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 2: License & Billing -->
+      <div class="glass-card rounded-2xl p-6 flex flex-col justify-between border-t-2 border-t-brand-cyan">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center text-brand-cyan mb-4">
+            <i data-lucide="key" class="w-5 h-5"></i>
+          </div>
+          <h2 class="text-lg font-bold text-white mb-1">License &amp; Billing</h2>
+          <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+            Retrieve lost license keys, manage device activations, or view invoices via Lemon Squeezy.
+          </p>
+          <div class="text-xs font-mono text-slate-400">
+            Powered by Lemon Squeezy (Merchant of Record).
+          </div>
+        </div>
+        <div class="mt-4 pt-3 border-t border-white/5">
+          <a href="https://dreainno.lemonsqueezy.com/" target="_blank" rel="noopener noreferrer" class="w-full py-2 px-3 rounded-lg bg-brand-surface hover:bg-brand-surfaceAlt border border-cyan-500/30 text-xs font-bold text-slate-200 hover:text-white flex items-center justify-center transition-colors">
+            <i data-lucide="external-link" class="w-3.5 h-3.5 mr-1.5 text-brand-cyan"></i>
+            Customer Billing Portal
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 3: 14-Day Refund -->
+      <div class="glass-card rounded-2xl p-6 flex flex-col justify-between border-t-2 border-t-amber-500">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-400 mb-4">
+            <i data-lucide="shield-check" class="w-5 h-5"></i>
+          </div>
+          <h2 class="text-lg font-bold text-white mb-1">14-Day Guarantee</h2>
+          <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+            Every Pro license comes with a 100% money-back guarantee. Email us within 14 days for a prompt refund.
+          </p>
+          <div class="text-xs font-mono text-amber-400 bg-amber-500/10 p-2 rounded border border-amber-500/20">
+            Zero-friction refund policy.
+          </div>
+        </div>
+        <div class="mt-4 pt-3 border-t border-white/5">
+          <a href="mailto:support@affiscope.website?subject=AffiScope%20Refund%20Request" class="w-full py-2 px-3 rounded-lg bg-brand-surface hover:bg-brand-surfaceAlt border border-amber-500/30 text-xs font-bold text-slate-200 hover:text-white flex items-center justify-center transition-colors">
+            <i data-lucide="rotate-ccw" class="w-3.5 h-3.5 mr-1.5 text-amber-400"></i>
+            Request a Refund
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- FAQ & TROUBLESHOOTING SECTION -->
+    <section class="mb-16">
+      <div class="text-center max-w-2xl mx-auto mb-8">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white">Frequently Asked Questions</h2>
+        <p class="mt-2 text-xs sm:text-sm text-slate-400">Find fast answers to common technical, installation, and license questions.</p>
+      </div>
+
+      <div class="space-y-3 max-w-4xl mx-auto">
+        
+        <!-- FAQ 1 -->
+        <div class="glass-card rounded-xl border border-white/10 overflow-hidden">
+          <button onclick="toggleSupportFaq(1)" class="w-full p-4 sm:p-5 text-left flex items-center justify-between font-semibold text-white hover:text-brand-mint transition-colors">
+            <span class="text-sm sm:text-base">How do I install and activate AffiScope in Google Chrome?</span>
+            <i data-lucide="chevron-down" id="s-faq-icon-1" class="w-4 h-4 text-slate-400 transition-transform"></i>
+          </button>
+          <div id="s-faq-ans-1" class="hidden px-4 sm:px-5 pb-5 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-white/5 pt-3 space-y-2">
+            <p>1. Install the extension directly from the Chrome Web Store or download the unpacked ZIP from your dashboard.</p>
+            <p>2. Pin the AffiScope shield icon to your Chrome toolbar for 1-click access.</p>
+            <p>3. If you have an AffiScope Pro license, click the extension icon, open <strong>Settings</strong> (gear icon), paste your Lemon Squeezy license key, and click <strong>Activate License</strong>.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="glass-card rounded-xl border border-white/10 overflow-hidden">
+          <button onclick="toggleSupportFaq(2)" class="w-full p-4 sm:p-5 text-left flex items-center justify-between font-semibold text-white hover:text-brand-mint transition-colors">
+            <span class="text-sm sm:text-base">How many devices can I activate on a single license key?</span>
+            <i data-lucide="chevron-down" id="s-faq-icon-2" class="w-4 h-4 text-slate-400 transition-transform"></i>
+          </button>
+          <div id="s-faq-ans-2" class="hidden px-4 sm:px-5 pb-5 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-white/5 pt-3">
+            Every AffiScope Pro license includes <strong>3 simultaneous device/profile activations</strong> (e.g., your desktop, laptop, and office browser). You can deactivate older machines at any time inside the extension Settings or via the Lemon Squeezy Customer Portal.
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="glass-card rounded-xl border border-white/10 overflow-hidden">
+          <button onclick="toggleSupportFaq(3)" class="w-full p-4 sm:p-5 text-left flex items-center justify-between font-semibold text-white hover:text-brand-mint transition-colors">
+            <span class="text-sm sm:text-base">Does AffiScope collect or send my browsing data to external servers?</span>
+            <i data-lucide="chevron-down" id="s-faq-icon-3" class="w-4 h-4 text-slate-400 transition-transform"></i>
+          </button>
+          <div id="s-faq-ans-3" class="hidden px-4 sm:px-5 pb-5 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-white/5 pt-3">
+            <strong>No, absolutely not.</strong> AffiScope is engineered as a 100% client-side Manifest V3 extension. All DOM scans, link classifications, and FTC calculations run exclusively within your browser's local memory. Zero browsing URLs, page content, or analytics are ever transmitted to any third-party server.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="glass-card rounded-xl border border-white/10 overflow-hidden">
+          <button onclick="toggleSupportFaq(4)" class="w-full p-4 sm:p-5 text-left flex items-center justify-between font-semibold text-white hover:text-brand-mint transition-colors">
+            <span class="text-sm sm:text-base">What should I do if the extension is not detecting links on my page?</span>
+            <i data-lucide="chevron-down" id="s-faq-icon-4" class="w-4 h-4 text-slate-400 transition-transform"></i>
+          </button>
+          <div id="s-faq-ans-4" class="hidden px-4 sm:px-5 pb-5 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-white/5 pt-3 space-y-2">
+            <p>• Ensure the page has finished loading all dynamic JavaScript.</p>
+            <p>• Click the <strong>"Scan Current Page"</strong> button inside the popup HUD to trigger a fresh DOM re-evaluation.</p>
+            <p>• Make sure Chrome extension permissions are enabled for the active tab (click the extensions puzzle icon in Chrome and ensure AffiScope has access to the page).</p>
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="glass-card rounded-xl border border-white/10 overflow-hidden">
+          <button onclick="toggleSupportFaq(5)" class="w-full p-4 sm:p-5 text-left flex items-center justify-between font-semibold text-white hover:text-brand-mint transition-colors">
+            <span class="text-sm sm:text-base">How does the 14-day money-back guarantee work?</span>
+            <i data-lucide="chevron-down" id="s-faq-icon-5" class="w-4 h-4 text-slate-400 transition-transform"></i>
+          </button>
+          <div id="s-faq-ans-5" class="hidden px-4 sm:px-5 pb-5 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-white/5 pt-3">
+            If you are not 100% satisfied with AffiScope Pro within 14 calendar days of your purchase, send an email to <a href="mailto:support@affiscope.website" class="text-brand-mint underline font-semibold">support@affiscope.website</a> with your order number or purchase email. We will process a full, immediate refund with no questions asked.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DIRECT TICKET / MESSAGE SUBMISSION FORM -->
+    <section class="max-w-2xl mx-auto glass-card rounded-2xl p-6 sm:p-8 border border-white/15 relative overflow-hidden">
+      
+      <!-- Ambient card glow -->
+      <div class="absolute -top-12 -right-12 w-48 h-48 bg-brand-emerald/10 rounded-full blur-2xl pointer-events-none"></div>
+
+      <div class="flex items-center space-x-3 mb-6 pb-4 border-b border-white/10">
+        <div class="w-9 h-9 rounded-xl bg-brand-emerald/15 border border-brand-emerald/30 flex items-center justify-center text-brand-mint flex-shrink-0">
+          <i data-lucide="message-square" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <h2 class="text-lg font-bold text-white">Send Us a Direct Message</h2>
+          <p class="text-xs text-slate-400">Fill out your details below to dispatch your message straight to our team.</p>
+        </div>
+      </div>
+
+      <!-- Form View -->
+      <form id="supportForm" onsubmit="handleSupportSubmit(event)" class="space-y-4 text-xs font-sans">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-slate-300 font-semibold mb-1">Your Name</label>
+            <input type="text" id="senderName" required placeholder="John Doe" class="w-full p-3 rounded-xl bg-brand-obsidian border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-brand-emerald text-xs">
+          </div>
+          <div>
+            <label class="block text-slate-300 font-semibold mb-1">Your Email</label>
+            <input type="email" id="senderEmail" required placeholder="you@example.com" class="w-full p-3 rounded-xl bg-brand-obsidian border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-brand-emerald text-xs">
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-slate-300 font-semibold mb-1">Inquiry Topic</label>
+          <select id="inquiryTopic" class="w-full p-3 rounded-xl bg-brand-obsidian border border-white/10 text-white focus:outline-none focus:border-brand-emerald text-xs">
+            <option value="General Question">General Question / Inquiry</option>
+            <option value="License Key Help">License Key / Activation Issue</option>
+            <option value="Bug Report">Technical Issue / Bug Report</option>
+            <option value="Feature Request">Feature Request / Suggestion</option>
+            <option value="Refund Request">14-Day Refund Request</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-slate-300 font-semibold mb-1">Message Details</label>
+          <textarea id="messageBody" rows="4" required placeholder="Describe your question or issue in detail..." class="w-full p-3 rounded-xl bg-brand-obsidian border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-brand-emerald text-xs"></textarea>
+        </div>
+
+        <button type="submit" id="submitBtn" class="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-brand-mint via-brand-emerald to-brand-cyan text-brand-obsidian font-extrabold text-xs shadow-lg shadow-brand-emerald/25 hover:shadow-brand-emerald/40 hover:scale-[1.01] active:scale-95 transition-all flex items-center justify-center">
+          <i data-lucide="send" class="w-4 h-4 mr-2 stroke-[2.5]"></i>
+          <span>Send Support Message</span>
+        </button>
+      </form>
+
+      <!-- Post-Submission Success / Action Modal View (Hidden by Default) -->
+      <div id="supportSuccessBox" class="hidden space-y-4 text-center py-4">
+        <div class="w-12 h-12 rounded-full bg-brand-emerald/20 border border-brand-emerald/40 text-brand-mint mx-auto flex items-center justify-center shadow-lg shadow-brand-emerald/20">
+          <i data-lucide="check-circle-2" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <h3 class="text-base font-bold text-white">Message Ready to Dispatch</h3>
+          <p class="text-xs text-slate-300 mt-1 max-w-md mx-auto leading-relaxed">
+            Your email client was triggered. If your email application didn't open automatically, choose your preferred method below:
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-2 text-xs">
+          <a id="gmailWebLink" href="#" target="_blank" rel="noopener noreferrer" class="py-2.5 px-3 rounded-xl bg-red-600/20 hover:bg-red-600/30 border border-red-500/40 text-red-300 font-bold flex items-center justify-center transition-all">
+            <i data-lucide="mail" class="w-3.5 h-3.5 mr-1.5 text-red-400"></i>
+            <span>Open in Gmail Web</span>
+          </a>
+          <button id="copySupportMsgBtn" onclick="copySupportMessage()" class="py-2.5 px-3 rounded-xl bg-brand-surface hover:bg-brand-surfaceAlt border border-brand-emerald/40 text-brand-mint font-bold flex items-center justify-center transition-all">
+            <i data-lucide="copy" class="w-3.5 h-3.5 mr-1.5"></i>
+            <span id="copyBtnText">Copy Email Text</span>
+          </button>
+        </div>
+
+        <div class="pt-2">
+          <button onclick="resetSupportForm()" class="text-xs text-slate-400 hover:text-white underline transition-colors">
+            ← Send Another Message
+          </button>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/10 bg-brand-obsidian py-12 text-slate-400 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        
+        <div class="flex items-center space-x-3">
+          <img src="assets/icon.png" alt="AffiScope Logo" class="w-7 h-7 rounded-lg" onerror="this.src='assets/icon128 (1).png'">
+          <span class="font-bold text-white text-base">AffiScope</span>
+          <span class="text-slate-500">• Published by <strong>Dreainno</strong> (<a href="https://dreainno.online/" target="_blank" class="hover:text-brand-mint underline">dreainno.online</a>)</span>
+        </div>
+
+        <div class="flex flex-wrap items-center justify-center gap-4 text-slate-400">
+          <a href="index.html" class="hover:text-white transition-colors">Home</a>
+          <a href="privacy.html" class="hover:text-white transition-colors">Privacy Policy</a>
+          <a href="terms.html" class="hover:text-white transition-colors">Terms of Service</a>
+          <a href="support.html" class="text-brand-mint font-semibold">Customer Support</a>
+        </div>
+
+        <div class="text-slate-500 text-center md:text-right">
+          © 2026 AffiScope. All rights reserved.
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    lucide.createIcons();
+
+    let compiledSupportMessage = '';
+
+    function toggleSupportFaq(index) {
+      const ans = document.getElementById(`s-faq-ans-${index}`);
+      const icon = document.getElementById(`s-faq-icon-${index}`);
+      if (!ans) return;
+      const isHidden = ans.classList.contains('hidden');
+      
+      for (let i = 1; i <= 5; i++) {
+        const a = document.getElementById(`s-faq-ans-${i}`);
+        const ic = document.getElementById(`s-faq-icon-${i}`);
+        if (a) a.classList.add('hidden');
+        if (ic) ic.style.transform = 'rotate(0deg)';
+      }
+
+      if (isHidden) {
+        ans.classList.remove('hidden');
+        if (icon) icon.style.transform = 'rotate(180deg)';
+      }
+    }
+
+    function handleSupportSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('senderName').value.trim();
+      const email = document.getElementById('senderEmail').value.trim();
+      const topic = document.getElementById('inquiryTopic').value;
+      const msg = document.getElementById('messageBody').value.trim();
+
+      const rawSubject = `[AffiScope Support] ${topic} - ${name}`;
+      const rawBody = `Sender Name: ${name}\nSender Email: ${email}\nInquiry Topic: ${topic}\n\nMessage Details:\n${msg}\n\n---\nSent from AffiScope Support Portal (https://affiscope.website/support.html)`;
+
+      compiledSupportMessage = `To: support@affiscope.website\nSubject: ${rawSubject}\n\n${rawBody}`;
+
+      const subjectEncoded = encodeURIComponent(rawSubject);
+      const bodyEncoded = encodeURIComponent(rawBody);
+
+      // 1. Direct Gmail Web Dispatcher URL
+      const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=support@affiscope.website&su=${subjectEncoded}&body=${bodyEncoded}`;
+      const gmailLink = document.getElementById('gmailWebLink');
+      if (gmailLink) gmailLink.href = gmailUrl;
+
+      // 2. Trigger native mailto link
+      const mailtoUrl = `mailto:support@affiscope.website?subject=${subjectEncoded}&body=${bodyEncoded}`;
+      window.location.href = mailtoUrl;
+
+      // 3. Switch to success action view
+      document.getElementById('supportForm').classList.add('hidden');
+      document.getElementById('supportSuccessBox').classList.remove('hidden');
+
+      lucide.createIcons();
+    }
+
+    function copySupportMessage() {
+      if (!compiledSupportMessage) return;
+      navigator.clipboard.writeText(compiledSupportMessage).then(() => {
+        const btnText = document.getElementById('copyBtnText');
+        if (btnText) {
+          btnText.textContent = '✓ Copied to Clipboard!';
+          setTimeout(() => {
+            btnText.textContent = 'Copy Email Text';
+          }, 2500);
+        }
+      });
+    }
+
+    function resetSupportForm() {
+      document.getElementById('supportForm').reset();
+      document.getElementById('supportSuccessBox').classList.add('hidden');
+      document.getElementById('supportForm').classList.remove('hidden');
+      lucide.createIcons();
+    }
+  </script>
+</body>
+</html>
