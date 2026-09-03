@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage / Landing Page -->
+  <url>
+    <loc>https://affiscope.website/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://affiscope.website/assets/icon.png</image:loc>
+      <image:title>AffiScope — The Live Affiliate Audit &amp; FTC Guard Chrome Extension Logo</image:title>
+      <image:caption>AffiScope Official Chrome Extension Logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://affiscope.website/assets/affiscope-banner_main.png</image:loc>
+      <image:title>AffiScope Live Chrome Extension HUD Banner</image:title>
+      <image:caption>Live on-page affiliate link audit and FTC compliance HUD</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://affiscope.website/privacy.html</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Terms of Service & Refund Policy -->
+  <url>
+    <loc>https://affiscope.website/terms.html</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

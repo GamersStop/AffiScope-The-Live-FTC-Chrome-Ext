@@ -1,0 +1,47 @@
+# ==========================================
+# Robots.txt for AffiScope (affiscope.website)
+# Optimized for Web Search Engines & AI Crawlers (ChatGPT, Gemini, Perplexity, Claude)
+# ==========================================
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /privacy.html
+Allow: /terms.html
+Allow: /sitemap.xml
+Allow: /llms.txt
+Allow: /assets/
+
+# AI Search & LLM Web Crawlers (Generative Engine Optimization)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Sitemap Location
+Sitemap: https://affiscope.website/sitemap.xml
