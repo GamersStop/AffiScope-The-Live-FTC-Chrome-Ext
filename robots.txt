@@ -10,6 +10,7 @@ Allow: /privacy.html
 Allow: /terms.html
 Allow: /sitemap.xml
 Allow: /llms.txt
+Allow: /llms-full.txt
 Allow: /assets/
 
 # AI Search & LLM Web Crawlers (Generative Engine Optimization)
