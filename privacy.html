@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — AffiScope | Dreainno</title>
+  <meta name="description" content="AffiScope Privacy Policy. 100% client-side architecture, zero telemetry, Google Chrome Web Store Limited Use, GDPR & CCPA compliance.">
+  <meta name="author" content="Dreainno">
+  <meta name="theme-color" content="#07090E">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="apple-touch-icon" href="assets/icon.png">
+
+  <!-- Google Fonts: Plus Jakarta Sans, Outfit & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            display: ['"Outfit"', '"Plus Jakarta Sans"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace']
+          },
+          colors: {
+            brand: {
+              obsidian: '#07090E',
+              dark: '#0B0F19',
+              surface: '#111827',
+              surfaceAlt: '#161F32',
+              emerald: '#10B981',
+              mint: '#34D399',
+              cyan: '#06B6D4',
+              sky: '#38BDF8',
+              amber: '#F59E0B',
+              crimson: '#EF4444',
+              slateText: '#94A3B8',
+              muted: '#64748B'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    body {
+      background-color: #07090E;
+      color: #F3F4F6;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      overflow-x: hidden;
+    }
+    h1, h2, h3, h4 {
+      font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+    }
+    .glass-nav {
+      background: rgba(7, 9, 14, 0.85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glass-card {
+      background: rgba(17, 24, 39, 0.65);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .hero-glow {
+      position: absolute;
+      top: -100px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 700px;
+      height: 350px;
+      background: radial-gradient(circle, rgba(16, 185, 129, 0.15) 0%, rgba(6, 182, 212, 0.06) 50%, rgba(7, 9, 14, 0) 70%);
+      filter: blur(60px);
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-brand-obsidian text-slate-100 antialiased relative flex flex-col justify-between">
+
+  <div class="hero-glow"></div>
+
+  <!-- NAVBAR -->
+  <header class="sticky top-0 z-50 glass-nav">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 sm:h-20">
+        
+        <!-- Logo -->
+        <a href="index.html" class="flex items-center space-x-3 group">
+          <div class="relative w-9 h-9 sm:w-10 sm:h-10 rounded-xl overflow-hidden p-0.5 bg-gradient-to-tr from-brand-emerald to-brand-cyan shadow-lg shadow-brand-emerald/20 flex-shrink-0">
+            <img src="assets/icon.png" alt="AffiScope Logo" class="w-full h-full object-cover rounded-[10px]" onerror="this.src='assets/icon128 (1).png'">
+          </div>
+          <div class="flex flex-col">
+            <div class="flex items-center space-x-1.5">
+              <span class="font-extrabold text-lg sm:text-xl tracking-tight text-white group-hover:text-brand-mint transition-colors">AffiScope</span>
+              <span class="px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider rounded bg-brand-emerald/15 text-brand-mint border border-brand-emerald/30">MV3</span>
+            </div>
+            <span class="text-[11px] text-slate-400 font-medium hidden sm:block">The Live Affiliate Audit & FTC Guard</span>
+          </div>
+        </a>
+
+        <!-- Links -->
+        <div class="flex items-center space-x-3 sm:space-x-4">
+          <a href="index.html" class="text-xs sm:text-sm font-semibold text-slate-300 hover:text-white transition-colors">
+            ← Back to Home
+          </a>
+          <a href="terms.html" class="text-xs sm:text-sm font-semibold text-slate-400 hover:text-white transition-colors hidden sm:block">
+            Terms of Service
+          </a>
+          <a href="https://dreainno.lemonsqueezy.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-3.5 py-2 text-xs font-bold text-slate-300 hover:text-brand-mint transition-colors">
+            <i data-lucide="key" class="w-3.5 h-3.5 mr-1.5 text-brand-mint"></i>
+            Get License
+          </a>
+          <a href="index.html#pricing" class="inline-flex items-center px-4 py-2 text-xs font-bold text-brand-obsidian bg-gradient-to-r from-brand-mint via-brand-emerald to-brand-cyan rounded-lg shadow-md shadow-brand-emerald/25 hover:shadow-brand-emerald/40 transition-all">
+            <i data-lucide="chrome" class="w-3.5 h-3.5 mr-1.5 stroke-[2.5]"></i>
+            Add to Chrome (Free)
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTENT -->
+  <main class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
+    
+    <div class="mb-10 text-center sm:text-left">
+      <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-brand-emerald/10 border border-brand-emerald/30 text-brand-mint text-xs font-semibold mb-4">
+        <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
+        <span>Privacy-First Architecture • Zero Telemetry</span>
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">Privacy Policy</h1>
+      <p class="mt-3 text-slate-400 text-sm sm:text-base">
+        <strong>Last Updated & Effective:</strong> January 1, 2026 • <strong>Published by:</strong> Dreainno (<a href="https://affiscope.website" class="text-brand-mint underline">affiscope.website</a>)
+      </p>
+    </div>
+
+    <!-- Policy Document Container -->
+    <div class="glass-card rounded-2xl p-6 sm:p-10 space-y-8 text-sm text-slate-300 leading-relaxed border border-white/10">
+      
+      <!-- Key Highlights Summary Box -->
+      <div class="p-5 rounded-xl bg-brand-emerald/10 border border-brand-emerald/30 space-y-2">
+        <h3 class="text-white font-bold text-base flex items-center">
+          <i data-lucide="check-circle-2" class="w-4 h-4 mr-2 text-brand-mint"></i>
+          Executive Summary for Users, Auditors & Regulators
+        </h3>
+        <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+          AffiScope is built on a <strong>100% Client-Side Local Execution Architecture</strong>. We do <strong>not</strong> collect, harvest, transmit, store, monetize, or broker your browsing history, visited web addresses, analyzed HTML content, draft articles, or personal data. All Document Object Model (DOM) parsing, anchor tag classification, and FTC coordinate audits execute entirely in your computer's local browser memory.
+        </p>
+      </div>
+
+      <!-- Section 1 -->
+      <section class="space-y-3">
+        <h2 class="text-lg sm:text-xl font-bold text-white flex items-center">
+          <span class="text-brand-mint font-mono mr-2.5 text-base">01.</span>
+          Chrome Web Store User Data & Limited Use Disclosure
+        </h2>
+        <p>
+          AffiScope complies strictly with the <a href="https://developer.chrome.com/docs/webstore/program-policies/" target="_blank" rel="noopener noreferrer" class="text-brand-cyan hover:underline">Chrome Web Store Developer Program Policies</a>, including the User Data FAQ and Limited Use requirements:
+        </p>
+        <ul class="list-disc list-inside space-y-1.5 pl-2 text-slate-300">
+          <li><strong>Minimal Permission Scope:</strong> AffiScope requests only the narrowest browser permissions strictly required to perform real-time visual DOM inspections on active tabs.</li>
+          <li><strong>No Remote Data Transfer:</strong> AffiScope does not transmit, transfer, or upload your web browsing content or inspected DOM nodes to external servers, cloud databases, advertising exchanges, or data brokers.</li>
+          <li><strong>No AI/ML Model Training on User Data:</strong> AffiScope does not use your page contents, URLs, or editorial drafts for machine learning training, LLM fine-tuning, or human review.</li>
+          <li><strong>No Credit or Lending Usage:</strong> No data analyzed by AffiScope is ever used for creditworthiness, lending, employment, or advertising targeting purposes.</li>
+        </ul>
+      </section>
+
+      <!-- Section 2 -->
+      <section class="space-y-3">
+        <h2 class="text-lg sm:text-xl font-bold text-white flex items-center">
+          <span class="text-brand-mint font-mono mr-2.5 text-base">02.</span>
+          Technical Execution: 100% Local Browser DOM Processing
+        </h2>
+        <p>
+          When you invoke AffiScope on an active web page:
+        </p>
+        <ol class="list-decimal list-inside space-y-2 pl-2 text-slate-300">
+          <li><strong>Local DOM Traversal:</strong> The extension script reads the active document's HTML tree in volatile browser memory to identify anchor tags (<code class="font-mono text-xs text-brand-mint">&lt;a href="..."&gt;</code>), <code class="font-mono text-xs text-brand-mint">rel</code> attributes, and disclosure blocks.</li>
+          <li><strong>On-Device Regular Expression Engine:</strong> URLs are evaluated client-side against local pattern sets matching 12+ major affiliate network identifiers (including Amazon Associates, Impact, CJ, ShareASale, Rakuten, Awin, Walmart, Target, and Skimlinks).</li>
+          <li><strong>Geometric Coordinate Offset:</strong> AffiScope calculates the vertical viewport offset (Y-axis pixels) between FTC disclosure nodes and the first commercial link to verify compliance with FTC § 255.5 prominence guidelines.</li>
+          <li><strong>Direct Headless Link Ping (Optional Pro Feature):</strong> Non-blocking background HTTP HEAD requests test outbound affiliate URLs for 404 Dog Pages directly from your browser client. These connections do not route through any intermediary proxy servers operated by Dreainno.</li>
+        </ol>
+      </section>
+
+      <!-- Section 3 -->
+      <section class="space-y-3">
+        <h2 class="text-lg sm:text-xl font-bold text-white flex items-center">
+          <span class="text-brand-mint font-mono mr-2.5 text-base">03.</span>
+          Information We Explicitly Do NOT Collect
+        </h2>
+        <p>To provide unambiguous legal certainty, AffiScope does NOT collect, store, log, or transmit:</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+          <div class="p-3 rounded-lg bg-brand-surface border border-white/5 flex items-start">
+            <i data-lucide="x" class="w-4 h-4 text-red-400 mr-2 flex-shrink-0 mt-0.5"></i>
+            <span>No web browsing history or visited URL logs</span>
+          </div>
+          <div class="p-3 rounded-lg bg-brand-surface border border-white/5 flex items-start">
+            <i data-lucide="x" class="w-4 h-4 text-red-400 mr-2 flex-shrink-0 mt-0.5"></i>
+            <span>No page copy, article text, or drafts</span>
+          </div>
+          <div class="p-3 rounded-lg bg-brand-surface border border-white/5 flex items-start">
+            <i data-lucide="x" class="w-4 h-4 text-red-400 mr-2 flex-shrink-0 mt-0.5"></i>
+            <span>No passwords, keystrokes, nonces, or form inputs</span>
+          </div>
+          <div class="p-3 rounded-lg bg-brand-surface border border-white/5 flex items-start">
+            <i data-lucide="x" class="w-4 h-4 text-red-400 mr-2 flex-shrink-0 mt-0.5"></i>
+            <span>No IP addresses, geolocation data, or telemetry</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4 -->
+      <section class="space-y-3">
+        <h2 class="text-lg sm:text-xl font-bold text-white flex items-center">
+          <span class="text-brand-mint font-mono mr-2.5 text-base">04.</span>
+          Pro License Billing & Merchant of Record (Lemon Squeezy)
+        </h2>
+        <p>
+          For users purchasing an <strong>AffiScope Pro</strong> license ($19.99/year), transaction processing is conducted exclusively through our authorized Merchant of Record, <strong>Lemon Squeezy, LLC</strong>:
+        </p>
+        <ul class="list-disc list-inside space-y-1.5 pl-2 text-slate-300">
+          <li><strong>Payment & Tax Handling:</strong> Lemon Squeezy handles order processing, card tokenization under PCI-DSS Level 1 compliance, global VAT/sales tax remittances, and customer billing inquiries. Dreainno does not receive or store payment card numbers.</li>
+          <li><strong>License Verification:</strong> During license activation, the extension sends a TLS-encrypted request directly to Lemon Squeezy's verification API endpoint to confirm active subscription entitlement. Validated status tokens are stored locally on your device with a resilient 48-hour offline flight-mode cache.</li>
+        </ul>
+      </section>
+
+      <!-- Section 5 -->
+      <section class="space-y-3">
+        <h2 class="text-lg sm:text-xl font-bold text-white flex items-center">
+          <span class="text-brand-mint font-mono mr-2.5 text-base">05.</span>
+          Manifest V3 Permissions Transparency
+        </h2>
+        <p>AffiScope requests strictly scoped Manifest V3 permissions:</p>
+        <div class="space-y-2 font-mono text-xs">
+          <div class="p-3 rounded-lg bg-brand-obsidian border border-white/10">
+            <strong class="text-brand-mint">"activeTab"</strong>
+            <p class="font-sans text-slate-400 text-xs mt-1">Grants temporary access to inspect the active browser tab when you click or run the extension. Does not allow background tracking of unopened or background tabs.</p>
+          </div>
+          <div class="p-3 rounded-lg bg-brand-obsidian border border-white/10">
+            <strong class="text-brand-mint">"storage"</strong>
+            <p class="font-sans text-slate-400 text-xs mt-1">Stores user settings, daily scan counters (for free tier), and cached Pro license validation tokens locally in <code class="text-brand-cyan">chrome.storage.local</code>.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 6 -->
+      <section class="space-y-3">
+        <h2 class="text-lg sm:text-xl font-bold text-white flex items-center">
+          <span class="text-brand-mint font-mono mr-2.5 text-base">06.</span>
+          GDPR, UK GDPR & California CCPA/CPRA Compliance
+        </h2>
+        <p>
+          Because AffiScope does not store or process personal data on external servers:
+        </p>
+        <ul class="list-disc list-inside space-y-1.5 pl-2 text-slate-300">
+          <li><strong>No Sale of Personal Data:</strong> We do not sell or share personal data as defined under the California Consumer Privacy Act (CCPA/CPRA).</li>
+          <li><strong>Right to Erasure & Portability:</strong> Uninstalling the extension from your browser instantly deletes all locally cached settings and audit histories from your computer.</li>
+          <li><strong>Data Subject Requests:</strong> For billing records, users may access their invoices and manage subscriber data directly via Lemon Squeezy's customer portal.</li>
+        </ul>
+      </section>
+
+      <!-- Section 7 -->
+      <section class="space-y-3">
+        <h2 class="text-lg sm:text-xl font-bold text-white flex items-center">
+          <span class="text-brand-mint font-mono mr-2.5 text-base">07.</span>
+          Changes to This Privacy Policy
+        </h2>
+        <p>
+          We may update this policy to maintain alignment with browser policy revisions or statutory updates. Any changes will be published immediately at <a href="https://affiscope.website/privacy.html" class="text-brand-mint underline">affiscope.website/privacy.html</a> with an updated effective date.
+        </p>
+      </section>
+
+      <!-- Section 8 -->
+      <section class="space-y-3 pt-4 border-t border-white/10">
+        <h2 class="text-lg sm:text-xl font-bold text-white flex items-center">
+          <span class="text-brand-mint font-mono mr-2.5 text-base">08.</span>
+          Legal & Privacy Contact
+        </h2>
+        <p>
+          For privacy inquiries or technical questions regarding local execution, contact:
+        </p>
+        <div class="p-4 rounded-xl bg-brand-surface border border-white/10 space-y-1 text-xs sm:text-sm">
+          <div><strong>Publisher / Studio:</strong> Dreainno</div>
+          <div><strong>Official Website:</strong> <a href="https://affiscope.website" class="text-brand-mint underline">https://affiscope.website</a></div>
+          <div><strong>Studio Portal:</strong> <a href="https://dreainno.online/" target="_blank" rel="noopener noreferrer" class="text-slate-300 underline">https://dreainno.online/</a></div>
+          <div><strong>Privacy & Legal Inquiries:</strong> <a href="mailto:support@affiscope.website" class="text-brand-cyan underline">support@affiscope.website</a></div>
+        </div>
+      </section>
+
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/10 bg-brand-obsidian py-10 text-slate-400 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+      <div>
+        © 2026 AffiScope (<a href="index.html" class="hover:text-white">affiscope.website</a>). All rights reserved. Published by <strong>Dreainno</strong>.
+      </div>
+      <div class="flex items-center space-x-4">
+        <a href="privacy.html" class="text-brand-mint">Privacy Policy</a>
+        <span>•</span>
+        <a href="terms.html" class="hover:text-white">Terms & Refund Policy</a>
+        <span>•</span>
+        <a href="mailto:support@affiscope.website" class="hover:text-white">Support</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      lucide.createIcons();
+    });
+  </script>
+</body>
+</html>
