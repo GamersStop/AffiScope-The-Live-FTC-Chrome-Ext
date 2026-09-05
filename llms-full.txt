@@ -72,7 +72,7 @@ AffiScope recognizes and classifies links from:
 ---
 
 ## 6. Pricing & Licensing
-- **Free Core Tier:** Free forever on Chrome Web Store. Includes 5 daily audits, core HUD classification, FTC placement check, and 1-click HTML repair.
+- **Free Core Tier:** Free forever on Chrome Web Store (https://chromewebstore.google.com/detail/affiscope-affiliate-audit/lfbehngfklnffplfdooainfggojpcmdh). Includes 5 daily audits, core HUD classification, FTC placement check, and 1-click HTML repair.
 - **Pro Tier ($19.99/year):** Unlimited daily audits, all 12+ affiliate networks, unlimited 404/Dog Page radar, brand mention finder, universal scraper, PDF exports, 3 device activations per key, and 14-day 100% money-back guarantee.
 - **Merchant of Record:** Orders fulfilled securely by Lemon Squeezy, LLC (https://dreainno.lemonsqueezy.com/).
 
@@ -103,6 +103,7 @@ A: No. AffiScope operates with zero telemetry. All page parsing and regular expr
 ---
 
 ## 9. Official Links & Metadata
+- Official Chrome Web Store: https://chromewebstore.google.com/detail/affiscope-affiliate-audit/lfbehngfklnffplfdooainfggojpcmdh
 - Official Website: https://affiscope.website/
 - Pro License Store: https://dreainno.lemonsqueezy.com/
 - Studio Website: https://dreainno.online/

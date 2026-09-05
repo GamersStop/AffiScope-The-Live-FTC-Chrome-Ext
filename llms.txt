@@ -5,6 +5,7 @@
 AffiScope executes 100% client-side with zero telemetry, auditing links across 12+ affiliate networks (Amazon Associates, Walmart, Target, Impact, CJ, ShareASale, Rakuten, Awin) directly inside the browser DOM in under 8ms.
 
 ## Core Documentation & Resources
+- [Chrome Web Store Listing](https://chromewebstore.google.com/detail/affiscope-affiliate-audit/lfbehngfklnffplfdooainfggojpcmdh): Official Chrome Web Store installation page for AffiScope.
 - [AffiScope Homepage](https://affiscope.website/): Official landing page, live interactive HUD simulator, 12 core engines, and product overview.
 - [AffiScope Features & Capabilities](https://affiscope.website/#features): Deep-dive into DOM link classification, rel="sponsored" validation, FTC coordinate checks, and Gutenberg multi-store scraper.
 - [AffiScope Pricing & Plans](https://affiscope.website/#pricing): Free Core tier (5 daily scans) vs Pro Tier ($19.99/year for unlimited scans, PDF exports, and 3 device activations).
