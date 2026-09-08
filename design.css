@@ -1,0 +1,412 @@
+/* =========================================================================
+   AFFISCOPE UI/UX PRO DESIGN SYSTEM — BASED ON DESIGN.MD
+   Theme: Editorial Tech Journal on Warm Parchment (#f6f3f1)
+   Typography: Untitled Serif (Display 400) + ABC Diatype Mono (Body/UI)
+   Accent: Lake Blue (#2b59d1) | Borders: 1px Ash (#cecac8) | Shapes: 100px Pill & 40px Card
+   Framer-Motion Springs & Interactive Micro-Interactions
+   ========================================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..500;1,9..144,300..500&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&display=swap');
+
+:root {
+  /* Brand Colors from design.md */
+  --color-parchment: #f6f3f1;
+  --color-lake-blue: #2b59d1;
+  --color-lake-blue-hover: #1f42a6;
+  --color-lake-blue-light: #eef2fd;
+  --color-periwinkle-mist: #cfdaf5;
+  --color-sky-blue: #a0b5eb;
+  --color-mint: #a7fccd;
+  --color-mint-dark: #128250;
+  --color-coral: #ff9473;
+  --color-gold: #ecda98;
+  --color-crimson: #f37a0a;
+  --color-off-black: #242424;
+  --color-ink: #000000;
+  --color-graphite: #4e4d4d;
+  --color-smoke: #797776;
+  --color-ash: #cecac8;
+  --color-ash-light: #e8e5e3;
+  --color-white: #ffffff;
+
+  /* Typography Families */
+  --font-abc-diatype-mono: 'JetBrains Mono', 'ABC Diatype Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-untitled-serif: 'Newsreader', 'Fraunces', 'Untitled Serif', ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  /* Typography Scale */
+  --text-caption: 12px;
+  --text-body-sm: 14px;
+  --text-body: 16px;
+  --text-label: 18px;
+  --text-body-lg: 20px;
+  --text-subheading: 24px;
+  --text-heading-sm: 32px;
+  --text-heading: 40px;
+  --text-heading-lg: 48px;
+  --text-display: 76px;
+
+  /* Layout & Spacing */
+  --page-max-width: 1432px;
+  --card-padding: 40px;
+
+  /* Border Radii */
+  --radius-tags: 9999px;
+  --radius-cards: 40px;
+  --radius-pills: 9999px;
+  --radius-buttons: 100px;
+  --radius-hud: 24px;
+
+  /* Spring Physics Easings */
+  --ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring-snappy: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-out-smooth: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-parchment);
+  color: var(--color-graphite);
+  font-family: var(--font-abc-diatype-mono);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--color-parchment);
+  color: var(--color-graphite);
+  font-family: var(--font-abc-diatype-mono);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  line-height: 1.45;
+  letter-spacing: -0.02em;
+}
+
+/* Headings: Untitled Serif @ 400 ONLY — The Editorial Signature */
+h1, h2, h3, h4, h5, h6,
+.font-serif,
+.heading-editorial {
+  font-family: var(--font-untitled-serif);
+  color: var(--color-off-black);
+  font-weight: 400 !important;
+  line-height: 1.16;
+  letter-spacing: -0.025em;
+  margin: 0;
+}
+
+p, span, div, a, button, input, textarea, code, table, th, td, label {
+  font-family: var(--font-abc-diatype-mono);
+}
+
+::selection {
+  background-color: var(--color-periwinkle-mist);
+  color: var(--color-off-black);
+}
+
+/* Custom Editorial Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-parchment);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-ash);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-smoke);
+}
+
+/* =========================================================================
+   BUTTONS (100px Pill Shapes from design.md)
+   ========================================================================= */
+
+/* Primary Pill Button (Lake Blue #2b59d1 - Single Saturated Action) */
+.btn-lake-blue {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-lake-blue);
+  color: #ffffff !important;
+  border: 1px solid var(--color-lake-blue);
+  border-radius: var(--radius-buttons);
+  padding: 14px 28px;
+  font-family: var(--font-abc-diatype-mono);
+  font-size: var(--text-body-sm);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: -0.28px;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s var(--ease-spring), background-color 0.2s ease, box-shadow 0.2s ease;
+  white-space: nowrap;
+}
+.btn-lake-blue:hover {
+  background-color: var(--color-lake-blue-hover);
+  border-color: var(--color-lake-blue-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px -6px rgba(43, 89, 209, 0.35);
+}
+.btn-lake-blue:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* Secondary Pill Button (Off-Black #242424) */
+.btn-off-black {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-off-black);
+  color: #ffffff !important;
+  border: 1px solid var(--color-off-black);
+  border-radius: var(--radius-buttons);
+  padding: 14px 28px;
+  font-family: var(--font-abc-diatype-mono);
+  font-size: var(--text-body-sm);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: -0.28px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s var(--ease-spring), background-color 0.2s ease, box-shadow 0.2s ease;
+  white-space: nowrap;
+}
+.btn-off-black:hover {
+  background-color: #000000;
+  border-color: #000000;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px -4px rgba(0, 0, 0, 0.2);
+}
+.btn-off-black:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* Ghost Pill Button */
+.btn-ghost-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: var(--color-off-black) !important;
+  border: 1px solid var(--color-off-black);
+  border-radius: var(--radius-buttons);
+  padding: 14px 28px;
+  font-family: var(--font-abc-diatype-mono);
+  font-size: var(--text-body-sm);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: -0.28px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s var(--ease-spring);
+  white-space: nowrap;
+}
+.btn-ghost-pill:hover {
+  background-color: var(--color-off-black);
+  color: #ffffff !important;
+  transform: translateY(-2px);
+}
+.btn-ghost-pill:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* Small Tag / Badge Pill */
+.tag-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: var(--color-parchment);
+  color: var(--color-off-black);
+  border: 1px solid var(--color-ash);
+  border-radius: var(--radius-tags);
+  padding: 6px 14px;
+  font-family: var(--font-abc-diatype-mono);
+  font-size: var(--text-caption);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: -0.4px;
+  line-height: 1.2;
+}
+
+/* =========================================================================
+   CARDS & SURFACES (40px Radius & 1px Ash Borders)
+   ========================================================================= */
+
+.card-parchment {
+  background-color: var(--color-parchment);
+  border: 1px solid var(--color-ash);
+  border-radius: var(--radius-cards);
+  padding: var(--card-padding);
+  transition: all 0.3s var(--ease-spring);
+  position: relative;
+  overflow: hidden;
+}
+.card-parchment:hover {
+  border-color: var(--color-smoke);
+  transform: translateY(-3px);
+  box-shadow: 0 16px 36px -12px rgba(0, 0, 0, 0.06);
+}
+
+.card-periwinkle {
+  background-color: var(--color-periwinkle-mist);
+  border: 1px solid var(--color-sky-blue);
+  border-radius: var(--radius-cards);
+  padding: var(--card-padding);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s var(--ease-spring);
+}
+.card-periwinkle:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 40px -12px rgba(43, 89, 209, 0.18);
+}
+
+.card-off-black {
+  background-color: var(--color-off-black);
+  color: var(--color-parchment);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-cards);
+  padding: var(--card-padding);
+}
+
+/* Atmospheric Gradients */
+.atmospheric-wash-hero {
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1000px;
+  height: 600px;
+  background: radial-gradient(circle at 40% 40%, rgba(255, 148, 115, 0.24) 0%, rgba(160, 181, 235, 0.28) 45%, rgba(167, 252, 205, 0.18) 75%, transparent 100%);
+  filter: blur(85px);
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.85;
+}
+
+.atmospheric-wash-card {
+  position: absolute;
+  right: -60px;
+  bottom: -60px;
+  width: 340px;
+  height: 340px;
+  background: radial-gradient(circle, rgba(255, 148, 115, 0.35) 0%, rgba(160, 181, 235, 0.45) 50%, rgba(167, 252, 205, 0.3) 80%, transparent 100%);
+  filter: blur(50px);
+  pointer-events: none;
+}
+
+/* =========================================================================
+   PIPELINE DIAGRAM & FLOW NODES
+   ========================================================================= */
+
+.pipeline-node {
+  background-color: var(--color-parchment);
+  border: 1px solid var(--color-ash);
+  border-radius: var(--radius-pills);
+  padding: 10px 20px;
+  font-family: var(--font-abc-diatype-mono);
+  font-size: var(--text-body-sm);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: -0.28px;
+  color: var(--color-off-black);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.25s var(--ease-spring);
+}
+.pipeline-node:hover {
+  border-color: var(--color-lake-blue);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px -4px rgba(43, 89, 209, 0.15);
+}
+
+/* =========================================================================
+   FAQ ACCORDION ROW
+   ========================================================================= */
+
+.faq-row {
+  width: 100%;
+  border-bottom: 1px solid var(--color-ash);
+  padding: 32px 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.faq-row-question {
+  font-family: var(--font-untitled-serif);
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--color-off-black);
+  letter-spacing: -0.48px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.faq-row-answer {
+  font-family: var(--font-abc-diatype-mono);
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--color-graphite);
+  padding-top: 14px;
+  letter-spacing: -0.3px;
+}
+
+/* Monospace Code Callout */
+.code-inline {
+  font-family: var(--font-abc-diatype-mono);
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--color-ash);
+  padding: 2px 7px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  color: var(--color-off-black);
+}
+
+/* Header Sticky Glass Nav */
+.nav-parchment {
+  background: rgba(246, 243, 241, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--color-ash);
+}
+
+/* Interactive 3D Card Tilt Physics */
+.tilt-card {
+  transform-style: preserve-3d;
+  transition: transform 0.15s ease-out;
+  will-change: transform;
+}
+
+/* Animated SVG Pulse Line */
+@keyframes dashPulse {
+  to {
+    stroke-dashoffset: -40;
+  }
+}
+.path-pulse {
+  stroke-dasharray: 6 6;
+  animation: dashPulse 1.8s linear infinite;
+}
+
+/* Floating Micro-Badge Keyframe */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+.animate-float {
+  animation: floatSlow 4.5s ease-in-out infinite;
+}
