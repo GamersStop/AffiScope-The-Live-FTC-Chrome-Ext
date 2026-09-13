@@ -18,5 +18,5 @@ AffiScope executes 100% client-side with zero telemetry, auditing links across 1
 - [Customer Support & Help Center](https://affiscope.website/support.html): Official support portal, contact form, license assistance, and troubleshooting guides.
 
 ## Optional & Developer
-- [Dreainno Studio](https://dreainno.online/): Official publisher and parent studio behind AffiScope.
+- [Dreainno Studio](https://dreainno.website/): Official publisher and parent studio behind AffiScope.
 - [Full LLM Context](https://affiscope.website/llms-full.txt): Complete uncompressed technical documentation, engine specifications, and FAQs for LLM ingestion.

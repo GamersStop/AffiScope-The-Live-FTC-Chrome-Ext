@@ -106,7 +106,7 @@ A: No. AffiScope operates with zero telemetry. All page parsing and regular expr
 - Official Chrome Web Store: https://chromewebstore.google.com/detail/affiscope-affiliate-audit/lfbehngfklnffplfdooainfggojpcmdh
 - Official Website: https://affiscope.website/
 - Pro License Store: https://dreainno.lemonsqueezy.com/
-- Studio Website: https://dreainno.online/
+- Studio Website: https://dreainno.website/
 - Privacy Policy: https://affiscope.website/privacy.html
 - Terms of Service: https://affiscope.website/terms.html
 - Canonical Sitemap: https://affiscope.website/sitemap.xml

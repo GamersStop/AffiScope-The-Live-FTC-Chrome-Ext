@@ -8,6 +8,7 @@ Allow: /
 Allow: /index.html
 Allow: /privacy.html
 Allow: /terms.html
+Allow: /support.html
 Allow: /sitemap.xml
 Allow: /llms.txt
 Allow: /llms-full.txt

@@ -41,7 +41,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..500;1,9..144,300..500&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&display=swap" rel="stylesheet">
 
-  <!-- Structured Data (JSON-LD): ContactPage & BreadcrumbList -->
+  <!-- Structured Data (JSON-LD): ContactPage, FAQPage & BreadcrumbList -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -55,7 +55,11 @@
         "publisher": {
           "@type": "Organization",
           "name": "Dreainno",
-          "url": "https://dreainno.online/"
+          "url": "https://dreainno.website/",
+          "sameAs": [
+            "https://chromewebstore.google.com/detail/affiscope-affiliate-audit/lfbehngfklnffplfdooainfggojpcmdh",
+            "https://dreainno.lemonsqueezy.com/"
+          ]
         },
         "contactPoint": {
           "@type": "ContactPoint",
@@ -63,6 +67,52 @@
           "email": "support@affiscope.website",
           "availableLanguage": ["English"]
         }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://affiscope.website/support.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I install and activate AffiScope in Google Chrome?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1. Install the extension directly from the Chrome Web Store. 2. Pin the AffiScope shield icon to your Chrome toolbar for 1-click access. 3. If you have an AffiScope Pro license, click the extension icon, open Settings, paste your Lemon Squeezy license key, and click Activate License."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many devices can I activate on a single license key?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Every AffiScope Pro license includes 3 simultaneous device/profile activations (e.g., your desktop, laptop, and office browser). You can deactivate older machines at any time inside the extension Settings or via the Lemon Squeezy Customer Portal."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does AffiScope collect or send my browsing data to external servers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No, absolutely not. AffiScope is engineered as a 100% client-side Manifest V3 extension. All DOM scans, link classifications, and FTC calculations run exclusively within your browser's local memory. Zero browsing URLs, page content, or analytics are ever transmitted to any third-party server."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should I do if the extension is not detecting links on my page?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ensure the page has finished loading all dynamic JavaScript. Click the 'Scan Current Page' button inside the popup HUD to trigger a fresh DOM re-evaluation. Make sure Chrome extension permissions are enabled for the active tab (click the extensions puzzle icon in Chrome and ensure AffiScope has access to the page)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the 14-day money-back guarantee work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "If you are not 100% satisfied with AffiScope Pro within 14 calendar days of your purchase, send an email to support@affiscope.website with your order number or purchase email. We will process a full, immediate refund with no questions asked."
+            }
+          }
+        ]
       },
       {
         "@type": "BreadcrumbList",
@@ -389,7 +439,7 @@
         <div class="flex items-center space-x-3">
           <img src="assets/icon.png" alt="AffiScope Logo" class="w-7 h-7 rounded-lg" onerror="this.src='assets/icon128 (1).png'">
           <span class="font-serif text-base text-[#242424]">AffiScope</span>
-          <span class="text-[#797776]">• Published by <strong>Dreainno</strong> (<a href="https://dreainno.online/" target="_blank" class="text-[#2b59d1] underline">dreainno.online</a>)</span>
+          <span class="text-[#797776]">• Published by <strong>Dreainno</strong> (<a href="https://dreainno.website/" target="_blank" class="text-[#2b59d1] underline">dreainno.website</a>)</span>
         </div>
 
         <div class="flex flex-wrap items-center justify-center gap-4 text-[#797776]">
